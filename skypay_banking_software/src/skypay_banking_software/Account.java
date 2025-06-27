@@ -12,7 +12,7 @@ public class Account implements AccountService{
         this.transactions=new ArrayList<Transaction>();
     }
     //getter
-    int getbalance()
+    public int getbalance()
     {
         return balance;
     }

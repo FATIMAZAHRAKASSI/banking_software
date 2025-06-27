@@ -13,15 +13,15 @@ public class Transaction{
     }
     
     //getters
-    int getbalance()
+    public int getbalance()
     {
         return balance;
     }
-    Date getdate()
+    public Date getdate()
     {
         return date;
     }
-    int getamount()
+    public int getamount()
     {
         return amount;
     }
